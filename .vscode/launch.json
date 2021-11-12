@@ -7,12 +7,12 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "c:\\Users\\silva\\Desktop\\65B7WEB\\MODULO-05-RequisiçõesEassincronismo\\04-Código síncrono vs assíncrono\\08-Thumbnails com JS",
+      "cwd": "c:\\Users\\silva\\Desktop\\65B7WEB\\MODULO-05-RequisiçõesEassincronismo\\04-Código síncrono vs assíncrono\\09-Thumbnails com FileReader\\HTML-CSS-JAVASCRIPT",
       "environment": [],
-      "program": "c:\\Users\\silva\\Desktop\\65B7WEB\\MODULO-05-RequisiçõesEassincronismo\\04-Código síncrono vs assíncrono\\08-Thumbnails com JS\\build\\Debug\\outDebug",
+      "program": "c:\\Users\\silva\\Desktop\\65B7WEB\\MODULO-05-RequisiçõesEassincronismo\\04-Código síncrono vs assíncrono\\09-Thumbnails com FileReader\\HTML-CSS-JAVASCRIPT\\build\\Debug\\outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "externalConsole": false,
       "setupCommands": [
         {
