@@ -2,8 +2,6 @@
  * Inserção/Upload de imagem e mostrar na tela do computadorObject.
  * É útil quando queremos fazer upload de imagem. Ou seja, visualizar a imagem
  * antes de salvar ou fazer o upload.
- * Obs.: Na aula anterior utilizei o método Síncrono. Nessa aula vou utilizar o 
- * método assíncrono.
  */
 
 function mostrar() {
