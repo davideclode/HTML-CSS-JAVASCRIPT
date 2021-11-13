@@ -7,21 +7,23 @@
  */
 
 function mostrar() {
+    let reader = new FileReader();
+    // Pegando a imagem
     let imagem = document.getElementById('imagem').files[0];
 
-    /** 
-     * Agora que temos nosso objeto retornado pelo "files[0]", vamor gerar um link
-     * a partir dele.
-    */
+    // Usando "reader" para ler a "imagem"
+    /**
+     * Quando a imagem for lida, aí vai ser executado um callback
+     * "onloadend" significa quando o carregamento finalizar
+     */
+    reader.onloadend = function () {
+        let img = document.createElement('img');
+        img.src = reader.result;
+        img.width = 200;
 
-    // Criando imagem
-    let img = document.createElement('img');
-    // Criando URL
-    img.src = URL.createObjectURL(imagem);
-    // Definindo a largura da imagem
-    img.width = 200;
 
-    // console.log(imagem);
-    // Mostrando imagem
-    document.getElementById('area').appendChild(img);
+        // Mostrando a imagem na tela
+        document.getElementById('area').appendChild(img);
+    }
+    reader.readAsDataURL(imagem);
 }
