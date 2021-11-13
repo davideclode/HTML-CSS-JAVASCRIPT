@@ -19,7 +19,6 @@ function mostrar() {
     // Definindo a largura da imagem
     img.width = 200;
 
-    // console.log(imagem);
     // Mostrando imagem
     document.getElementById('area').appendChild(img);
 }
